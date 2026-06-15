@@ -1,0 +1,14 @@
+spring.mail 已正确配置（与现有发信一致）。
+客户表 email 有值才会发送；否则该车辆会跳过。
+同一客户多辆车若同一天都满足条件，会分别发多封（按车提醒）。
+
+
+maintenance:
+  reminder:
+    enabled: true
+    interval-days: 180
+    cron: "0 0 8 * * ?"
+	
+interval-days：间隔天数 N（例如 180 表示约半年提醒一次）。
+cron：默认每天 8:00 执行一次（可按需改）。
+enabled: false：关闭任务（仍会按 cron 触发方法，但内部直接 return，不扫描不发信）。

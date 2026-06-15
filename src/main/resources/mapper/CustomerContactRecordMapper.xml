@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.repair.manage.module.customer_contact_record.mapper.CustomerContactRecordMapper">
+
+    <sql id="baseSelect">
+        SELECT r.id,
+               r.customer_id,
+               r.to_email,
+               r.email_subject,
+               r.email_content,
+               r.operator_id,
+               r.create_time,
+               c.customer_name AS customerName,
+               u.real_name AS operatorName
+        FROM customer_contact_record r
+        LEFT JOIN customer c ON r.customer_id = c.id
+        LEFT JOIN sys_user u ON r.operator_id = u.id
+    </sql>
+
+    <sql id="whereCondition">
+        <where>
+            <if test="entity.id != null">
+                AND r.id = #{entity.id}
+            </if>
+            <if test="entity.customerId != null">
+                AND r.customer_id = #{entity.customerId}
+            </if>
+            <if test="entity.emailSubject != null and entity.emailSubject != ''">
+                AND r.email_subject LIKE CONCAT('%', #{entity.emailSubject}, '%')
+            </if>
+            <if test="entity.toEmail != null and entity.toEmail != ''">
+                AND r.to_email LIKE CONCAT('%', #{entity.toEmail}, '%')
+            </if>
+        </where>
+    </sql>
+
+    <select id="pageQuery" resultType="com.repair.manage.module.customer_contact_record.entity.CustomerContactRecord">
+        <include refid="baseSelect"/>
+        <include refid="whereCondition"/>
+        ORDER BY r.create_time DESC
+        LIMIT #{offset}, #{limit}
+    </select>
+
+    <select id="countQuery" resultType="java.lang.Long">
+        SELECT COUNT(1)
+        FROM customer_contact_record r
+        <include refid="whereCondition"/>
+    </select>
+
+    <select id="listQuery" resultType="com.repair.manage.module.customer_contact_record.entity.CustomerContactRecord">
+        <include refid="baseSelect"/>
+        <include refid="whereCondition"/>
+        ORDER BY r.create_time DESC
+    </select>
+
+    <select id="getById" resultType="com.repair.manage.module.customer_contact_record.entity.CustomerContactRecord">
+        <include refid="baseSelect"/>
+        WHERE r.id = #{id}
+    </select>
+
+</mapper>
