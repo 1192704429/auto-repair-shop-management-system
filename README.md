@@ -21,7 +21,7 @@
 | 财务人员 | 业务端 | 费用结算管理、结算订单管理 |
 
 
-![功能模块图](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/azhou_promotion/img/module_structure/func_module_454333fa531547868f876d2ff0ffe627.png)
+![功能模块图](docs/images/01-func-module.png)
 
 
 ## 三、技术栈说明
@@ -51,43 +51,43 @@
 
 首页：可视化展示系统多维度业务统计数据
 
-![首页：可视化展示系统多维度业务统计数据](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/919bcd96-d953-4da5-86ff-416e2619f084.jpg)
+![首页：可视化展示系统多维度业务统计数据](docs/images/02-shou-ye.png)
 
 系统人员管理：管理系统内部人员账号，支持增删改查操作
 
-![系统人员管理：管理系统内部人员账号，支持增删改查操作](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/68185536-b0cb-4223-81b5-69ce69124fa2.jpg)
+![系统人员管理：管理系统内部人员账号，支持增删改查操作](docs/images/03-xi-tong-ren-yuan-guan-li.png)
 
 客户信息管理：管理员查询并管理系统内所有客户信息
 
-![客户信息管理：管理员查询并管理系统内所有客户信息](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/4e97ef96-8726-4d56-895d-aea14fd8d983.jpg)
+![客户信息管理：管理员查询并管理系统内所有客户信息](docs/images/04-ke-hu-xin-xi-guan-li.png)
 
 供应商管理：查询和管理系统内的供应商信息
 
-![供应商管理：查询和管理系统内的供应商信息](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/d45c3f29-1572-44ed-8385-467d51aa7f62.jpg)
+![供应商管理：查询和管理系统内的供应商信息](docs/images/05-gong-ying-shang-guan-li.png)
 
 车辆档案管理：展示并管理系统内的车辆档案信息
 
-![车辆档案管理：展示并管理系统内的车辆档案信息](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/697eca0d-907e-493e-8059-9bea8fee6f23.jpg)
+![车辆档案管理：展示并管理系统内的车辆档案信息](docs/images/06-che-liang-dang-an-guan-li.png)
 
 维修项目分类管理：管理汽车维修项目分类，支持增删改查操作
 
-![维修项目分类管理：管理汽车维修项目分类，支持增删改查操作](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/ca467747-90e9-46ae-852b-badeaefa47ce.jpg)
+![维修项目分类管理：管理汽车维修项目分类，支持增删改查操作](docs/images/07-wei-xiu-xiang-mu-fen-lei-guan-li.png)
 
 配件分类管理：管理并查询汽车维修的各类配件分类信息
 
-![配件分类管理：管理并查询汽车维修的各类配件分类信息](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/f1837499-7b25-4593-81fd-39928cf433ae.jpg)
+![配件分类管理：管理并查询汽车维修的各类配件分类信息](docs/images/08-pei-jian-fen-lei-guan-li.png)
 
 配件信息管理：管理员管理汽车维修配件的基础信息
 
-![配件信息管理：管理员管理汽车维修配件的基础信息](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/4eeacebc-df0d-480a-823f-68e5d02c586d.jpg)
+![配件信息管理：管理员管理汽车维修配件的基础信息](docs/images/09-pei-jian-xin-xi-guan-li.png)
 
 配件入库管理：查看并管理配件入库订单，支持审核操作
 
-![配件入库管理：查看并管理配件入库订单，支持审核操作](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/11853952-8c07-4bb6-867b-a3646d681406.jpg)
+![配件入库管理：查看并管理配件入库订单，支持审核操作](docs/images/10-pei-jian-ru-ku-guan-li.png)
 
 维修工单管理：展示并管理系统内所有汽车维修工单
 
-![维修工单管理：展示并管理系统内所有汽车维修工单](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/ef7483bb-4e3f-44d3-826d-b94e7f86ae53.jpg)
+![维修工单管理：展示并管理系统内所有汽车维修工单](docs/images/11-wei-xiu-gong-dan-guan-li.png)
 
 
 ###### 业务端
@@ -103,43 +103,43 @@
 
 登录页：填写账号信息，验证后登录管理系统
 
-![登录页：填写账号信息，验证后登录管理系统](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/a4cd0ae8-3d49-4780-808c-aa849a7860b8.png)
+![登录页：填写账号信息，验证后登录管理系统](docs/images/12-deng-lu.png)
 
 首页：可视化统计车辆类型与维修工单状态
 
-![首页：可视化统计车辆类型与维修工单状态](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/45a2d8e9-78e8-4abe-88f5-1bd9f282534d.png)
+![首页：可视化统计车辆类型与维修工单状态](docs/images/13-shou-ye.png)
 
 客户信息管理：对客户信息进行查询、编辑、删除等管理操作
 
-![客户信息管理：对客户信息进行查询、编辑、删除等管理操作](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/de039b29-efd6-4a6b-8e89-7a923d0c2699.png)
+![客户信息管理：对客户信息进行查询、编辑、删除等管理操作](docs/images/14-ke-hu-xin-xi-guan-li.png)
 
 客户信息管理：管理客户信息，支持查询增删改操作
 
-![客户信息管理：管理客户信息，支持查询增删改操作](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/779c5f2b-5278-423b-8190-085e51b3a87d.png)
+![客户信息管理：管理客户信息，支持查询增删改操作](docs/images/15-ke-hu-xin-xi-guan-li.png)
 
 车辆档案管理页：新增车辆档案，填写车辆相关信息
 
-![车辆档案管理页：新增车辆档案，填写车辆相关信息](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/154e592d-4abe-43e7-88f6-ac63235a3fbb.png)
+![车辆档案管理页：新增车辆档案，填写车辆相关信息](docs/images/16-che-liang-dang-an-guan-li.png)
 
 车辆档案管理：查看和管理所有车辆的档案信息
 
-![车辆档案管理：查看和管理所有车辆的档案信息](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/46121dbd-6dee-4112-8661-afdcd47d8559.png)
+![车辆档案管理：查看和管理所有车辆的档案信息](docs/images/17-che-liang-dang-an-guan-li.png)
 
 维修工单管理页：展示维修工单列表，支持查询和工单操作
 
-![维修工单管理页：展示维修工单列表，支持查询和工单操作](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/115059ab-d907-4ff7-8075-f60cc5a0dcae.png)
+![维修工单管理页：展示维修工单列表，支持查询和工单操作](docs/images/18-wei-xiu-gong-dan-guan-li.png)
 
 维修工单管理页：查看维修工单列表，可创建新的维修工单
 
-![维修工单管理页：查看维修工单列表，可创建新的维修工单](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/a6ed9a19-0308-4602-87fe-c47292aaa872.png)
+![维修工单管理页：查看维修工单列表，可创建新的维修工单](docs/images/19-wei-xiu-gong-dan-guan-li.png)
 
 维修工单详情页：查看维修工单的维修详情、配件及财务信息
 
-![维修工单详情页：查看维修工单的维修详情、配件及财务信息](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/4d296893-a9d4-4747-837d-54284311e134.png)
+![维修工单详情页：查看维修工单的维修详情、配件及财务信息](docs/images/20-wei-xiu-gong-dan-xiang-qing.png)
 
 联系顾客页：撰写邮件发送给客户，记录邮件往来
 
-![联系顾客页：撰写邮件发送给客户，记录邮件往来](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/28c5445d-98cb-4c4a-812a-d149b1cda0ff.png)
+![联系顾客页：撰写邮件发送给客户，记录邮件往来](docs/images/21-lian-xi-gu-ke.png)
 
 
 ###### 维修工程师
@@ -151,43 +151,43 @@
 
 首页：展示各类业务数据的统计可视化图表
 
-![首页：展示各类业务数据的统计可视化图表](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/a1d6a0e4-c9aa-4897-87bd-fa992142e9a4.jpg)
+![首页：展示各类业务数据的统计可视化图表](docs/images/22-shou-ye.png)
 
 工单处理页：查看分配的维修工单，支持更新工单状态
 
-![工单处理页：查看分配的维修工单，支持更新工单状态](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/a2c62bf5-aaef-41cf-82c9-9b288f978d72.jpg)
+![工单处理页：查看分配的维修工单，支持更新工单状态](docs/images/23-gong-dan-chu-li.png)
 
 工单处理页：填写维修详情，更新维修工单状态
 
-![工单处理页：填写维修详情，更新维修工单状态](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/f3978483-6d17-42b8-8895-8149ac41fd1b.jpg)
+![工单处理页：填写维修详情，更新维修工单状态](docs/images/24-gong-dan-chu-li.png)
 
 维修详情页：查看维修详情，添加本次维修使用的配件
 
-![维修详情页：查看维修详情，添加本次维修使用的配件](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/5569f318-da26-44a7-86e6-e5a2b3f44004.jpg)
+![维修详情页：查看维修详情，添加本次维修使用的配件](docs/images/25-wei-xiu-xiang-qing.png)
 
 详情页：查看汽车维修配件的详细信息
 
-![详情页：查看汽车维修配件的详细信息](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/90387c26-7004-4014-806a-d842af5bbd09.jpg)
+![详情页：查看汽车维修配件的详细信息](docs/images/26-xiang-qing.png)
 
 列表页：查看不同状态的配件入库订单列表
 
-![列表页：查看不同状态的配件入库订单列表](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/baf0b112-37bd-4206-8eef-645c0dc27ef2.jpg)
+![列表页：查看不同状态的配件入库订单列表](docs/images/27-lie-biao.png)
 
 配件信息管理页：展示各类维修配件，支持配件信息管理操作
 
-![配件信息管理页：展示各类维修配件，支持配件信息管理操作](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/eba42169-5409-4ef6-8565-a7c5b6c2eaf6.jpg)
+![配件信息管理页：展示各类维修配件，支持配件信息管理操作](docs/images/28-pei-jian-xin-xi-guan-li.png)
 
 配件入库页：新建配件入库单，填写入库配件相关信息
 
-![配件入库页：新建配件入库单，填写入库配件相关信息](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/8bf25785-005d-40aa-8bee-726a73eb60aa.jpg)
+![配件入库页：新建配件入库单，填写入库配件相关信息](docs/images/29-pei-jian-ru-ku.png)
 
 入库订单详情页：查看配件入库订单的详细信息
 
-![入库订单详情页：查看配件入库订单的详细信息](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/1aa65224-9fda-42ff-84d0-c10000aacda6.jpg)
+![入库订单详情页：查看配件入库订单的详细信息](docs/images/30-ru-ku-ding-dan-xiang-qing.png)
 
 配件信息管理页：添加汽车维修配件的基础信息
 
-![配件信息管理页：添加汽车维修配件的基础信息](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/c5e8f6bf-b51e-4446-82d7-a015b0bb7cc8.jpg)
+![配件信息管理页：添加汽车维修配件的基础信息](docs/images/31-pei-jian-xin-xi-guan-li.png)
 
 
 ###### 财务人员
@@ -199,19 +199,19 @@
 
 首页：展示维修工单状态和财务收支统计数据
 
-![首页：展示维修工单状态和财务收支统计数据](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/2b83ff40-8382-479b-8a2e-d42ff028788a.jpg)
+![首页：展示维修工单状态和财务收支统计数据](docs/images/32-shou-ye.png)
 
 费用结算页：查看已完成维修工单，进行费用结算
 
-![费用结算页：查看已完成维修工单，进行费用结算](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/f949a006-823d-48f0-8224-fcf0436baaa6.jpg)
+![费用结算页：查看已完成维修工单，进行费用结算](docs/images/33-fei-yong-jie-suan.png)
 
 结算详情页：查看已完成维修工单的费用结算详情
 
-![结算详情页：查看已完成维修工单的费用结算详情](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/a4d8eaaa-43a2-4915-80e7-0573089d5438.jpg)
+![结算详情页：查看已完成维修工单的费用结算详情](docs/images/34-jie-suan-xiang-qing.png)
 
 订单管理页：统计财务收支，管理汽车维修财务订单
 
-![订单管理页：统计财务收支，管理汽车维修财务订单](https://code-graden-server-dev.oss-cn-beijing.aliyuncs.com/2026-06-15/87fd5b87-e7f2-4038-8a2f-b4b1a28fd659.jpg)
+![订单管理页：统计财务收支，管理汽车维修财务订单](docs/images/35-ding-dan-guan-li.png)
 
 
 ## 五、主要业务流程
